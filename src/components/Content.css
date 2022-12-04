@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Inter, sans-serif;
+    background-color: #282D35;
+    background-image: url(./images/asd.png);
+    background-repeat: no-repeat;
+    background-position-x: 120%;
+    background-position-y: 3500%;
+    background-size: 500px;
+}
+
+
+.content{
+    padding-top: 3%;
+    padding-left: 2%;
+    margin-left: 2%;
+    font-family: 'Inter',sans-serif;
+    color: #FFFFFF;
+    font-size: 18px;
+
+    
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin-left: 2%;
+    padding-left: 1em;
+    text-indent: -.7em;
+}
+
+li::before {
+    content: "• ";
+    color: #61DAFB;
+    font-size: 35px;
+    margin: 0;
+    padding: 0;
+    /* or whatever color you prefer */
+}
+
+.content > h1{
+    font-weight: 700;
+}
+
+.content >ul > li{
+    font-weight: 400;
+    margin: top 15px;;
+    margin-bottom: 15px;
+}
